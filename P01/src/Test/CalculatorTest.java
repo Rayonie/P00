@@ -60,12 +60,12 @@ class CalculatorTest {
 	@Test
 	void testSubtract() {
 			int a = 1000;
-			int b = 1;
+			int b = 12;
 				
 			Calculator cal = new Calculator();
 			int actual = cal.subtract(a, b); 
 				 
-			int expected = 999;
+			int expected = 998;
 			assertEquals (expected, actual);
 			}
 	@Test
